@@ -1,7 +1,7 @@
 import {asyncHandler} from "../utils/asyncHandler.js";
 import {ApiError} from "../utils/ApiError.js"
 import { User } from "../models/user.models.js";
-import { uploadOnCloudinary } from "../utils/cloudinary.js"
+import { deleteFromCloudinary, uploadOnCloudinary } from "../utils/cloudinary.js"
 import { ApiResponse } from "../utils/ApiResponse.js"
 
 
@@ -138,6 +138,57 @@ const logoutUser = asyncHandler( async(req, res) => {
             "User logged out sucessfully"
         )
     );
+});
+
+const getProfile = asyncHandler(async (req, res) => {
+    return res.status(200).json(new ApiResponse(200, req.user, "Profile fetched successfully"))
+});
+
+const avatarUpload = asyncHandler(async (req, res) => {
+    const avatarLocalPath = req.files?.path;
+    if(!avatarLocalPath) throw new ApiError(400, "Please upload an avatar image");
+
+    const avatar = await uploadOnCloudinary(avatarLocalPath);
+    if(!avatar?.url || !avatar?.public_id)
+        throw new ApiError(500, "Failed to upload avatar image");
+
+    const user = await User.findById(req.user?._id).select("-password -refreshToken");
+    if(!user) throw new ApiError(400, "User not found");
+
+    //Delete old image from Cloudinary if exits
+
+    if(user.avatar?.public_id){
+        await deleteFromCloudinary(user.avatar.public_id);
+    }
+
+    user.avatar = {
+        url: avatar.url,
+        public_id: avatar.public_id,
+    };
+
+    await user.save({validateBeforeSave: flase});
+
+    return res 
+    .status(200)
+    .json(new ApiResponse(200, user, "Avatar uploaded sucessfully"));
 })
 
-export { registerUser, loginUser, logoutUser};
+const changeCurrentPassword = asyncHandler(async (req, res) => {
+    const {currentPassword, newPassword} = req.body;
+
+    const user = await User.findById(req.user?._id);
+    if(!user) throw new ApiError(404, "User not found");
+
+    const isPasswordValid = await user.comparePassword(currentPassword);
+    if(!isPasswordValid) throw new ApiError(401, "Current password is incorrect");
+
+    user.password = newPassword;
+
+    await user.save({validateBeforeSave: flase});
+
+    return res.status(200)
+    .json(new ApiResponse(200, {}, "Password chnaged successfully"));
+
+})
+
+export { registerUser, loginUser, logoutUser, getProfile, avatarUpload, changeCurrentPassword};
