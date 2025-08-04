@@ -61,9 +61,9 @@ Swift-Basket/
 ## 👨‍💻 Author
 
 **Satyam Kumar**
-📧 Email: \[[youremail@example.com](mailto:youremail@example.com)]
-🌐 Portfolio: \[yourwebsite.com]
-🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)
+📧 Email: \[[repo.satyam91081@gmail.com](mailto:repo.satyam91081@gmail.com)]
+🌐 Portfolio: \[https://stylemecck.info]
+🐙 GitHub: [github.com/yourusername](https://github.com/stylemecck)
 
 ---
 
