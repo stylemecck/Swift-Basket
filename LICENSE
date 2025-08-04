@@ -1,39 +1,14 @@
-Swift Basket License v1.0
+BSD 3-Clause License
 
-Copyright © 2025
-Swift Basket Project
-Created by Satyam Kumar
+Copyright (c) 2025, Satyam Kumar
+All rights reserved.
 
----
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-1. Permission
-   This project is made publicly visible only for showcasing the author's skills.
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
-* You are not granted permission to use, copy, modify, distribute, or reuse any part of this project in any form.
-* This codebase is shared solely for portfolio and review purposes by potential employers or collaborators.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-2. Attribution
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-* You may refer to this project in professional discussions or reviews only with clear credit to the author:
-  "Swift Basket by Satyam Kumar ([https://github.com/yourusername](https://github.com/yourusername))"
-
-3. Restrictions
-   You may not:
-
-* Use, copy, modify, or redistribute this project or its contents.
-* Use the name "Swift Basket" or any of its assets in any public or private project.
-* Claim ownership, derive commercial value, or represent this project as your own.
-
-4. Liability & Warranty
-   This software is provided "as is" for demonstration only. No warranty or guarantee is provided. The author disclaims all liability from any use or misuse.
-
-5. Contribution
-   Contributions are not accepted. This is a closed personal project.
-
-6. Termination
-   Any unauthorized use of this project constitutes a violation of these terms and may lead to legal action or reporting.
-
----
-
-Contact:
-For inquiries, reach out via GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
