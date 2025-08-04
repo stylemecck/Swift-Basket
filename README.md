@@ -81,4 +81,8 @@ Let me know if you want:
 - GitHub Actions CI/CD badge  
 - A live demo badge (if deployed)  
 - Shields for things like coverage, last commit, etc.
+---
+#### ©️ Copyright 2025 Satyam Kumar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software...
 
