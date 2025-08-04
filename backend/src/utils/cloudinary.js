@@ -22,4 +22,15 @@ const uploadOnCloudinary = async (loaclFilePath) => {
         return null;
     }
 }
-export {uploadOnCloudinary}
+
+const deleteFromCloudinary = async (publicId) => {
+    try {
+        const result = await cloudinary.uploader.destroy(publicId)
+        console.log("Deleted from cloudinary. public id ", publicId);
+
+    } catch (error) {
+        console.log("Error deleting from Cloudinary", error);
+        return null
+    }
+}
+export {uploadOnCloudinary, deleteFromCloudinary}
