@@ -1,21 +1,39 @@
-MIT License
+Swift Basket License v1.0
 
-Copyright (c) 2025 Satyam Kumar
+Copyright © 2025
+Swift Basket Project
+Created by Satyam Kumar
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Permission
+   This project is made publicly visible only for showcasing the author's skills.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* You are not granted permission to use, copy, modify, distribute, or reuse any part of this project in any form.
+* This codebase is shared solely for portfolio and review purposes by potential employers or collaborators.
+
+2. Attribution
+
+* You may refer to this project in professional discussions or reviews only with clear credit to the author:
+  "Swift Basket by Satyam Kumar ([https://github.com/yourusername](https://github.com/yourusername))"
+
+3. Restrictions
+   You may not:
+
+* Use, copy, modify, or redistribute this project or its contents.
+* Use the name "Swift Basket" or any of its assets in any public or private project.
+* Claim ownership, derive commercial value, or represent this project as your own.
+
+4. Liability & Warranty
+   This software is provided "as is" for demonstration only. No warranty or guarantee is provided. The author disclaims all liability from any use or misuse.
+
+5. Contribution
+   Contributions are not accepted. This is a closed personal project.
+
+6. Termination
+   Any unauthorized use of this project constitutes a violation of these terms and may lead to legal action or reporting.
+
+---
+
+Contact:
+For inquiries, reach out via GitHub: [https://github.com/yourusername](https://github.com/yourusername)

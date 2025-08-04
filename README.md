@@ -5,7 +5,7 @@
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
+![License: Personal Use Only](https://img.shields.io/badge/License-Personal--Use--Only-red)
 ![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
 ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 
